@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Ali's Quiz</title>
+</head>
+<body>
+
+    <!-- Quiz header -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-2">Ali Quiz</h2>
+        </div>
+    </div>
+
+    <!-- SCORE BOARD  -->
+    <div class = "result py3 d-none bg-light text-center">
+        <div class="container lead">
+            <p>You got <span class="text-primary display-4 p-3">0%</span> lucky</p>
+        </div>
+    </div>
+
+    <!-- Quiz time -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-3 text-white">Let's get it</h2>
+
+            <form class="quiz-form text-light">
+
+                <div class="my-3">
+                    <p class="lead font-weight-normal">1. Who's the greatest the basketball player to step on the court?</p>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q1" value = "A">
+                    <label class="form-check-label">Michael Jeffrey Jordan</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q1" value = "B">
+                    <label class="form-check-label">Kobe Bean Bryant</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q1" value = "C">
+                    <label class="form-check-label">King James</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q1" value = "D">
+                    <label class="form-check-label">All the above</label>
+                </div>
+
+                <div class="good-response-q1 d-none my-2 text-white-65 bg-purple">
+                    <p>We respect greatness, not pit it against itself</p>
+                </div>
+
+
+                <div class="my-3">
+                    <p class="lead font-weight-normal">2. What is my most astounding quality</p>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q2" value = "A" checked>
+                    <label class="form-check-label">Gifted wit</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q2" value = "B">
+                    <label class="form-check-label">Ambitious drive</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q2" value = "C">
+                    <label class="form-check-label">Courageus vision</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q2" value = "D">
+                    <label class="form-check-label">Will talk your head off</label>
+                </div>
+
+                <div class="good-response-q2 d-none my-2 text-white-65 bg-purple">
+                    <p>We respect greatness, not pit it against itself</p>
+                </div>
+
+
+
+                <div class="my-3">
+                    <p class="lead font-weight-normal">3. What's Ali's favourite gym day?</p>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q3" value = "A" checked>
+                    <label class="form-check-label">Back and biceps, pull ups are respectable</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q3" value = "B">
+                    <label class="form-check-label">Chest day, enough said</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q3" value = "C">
+                    <label class="form-check-label">Leg day, I go hard in the paint</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q3" value = "D">
+                    <label class="form-check-label">Abdominals</label>
+                </div>
+
+                <div class="good-response-q3 d-none my-2 text-white-65 bg-purple">
+                    <p>We respect greatness, not pit it against itself</p>
+                </div>
+
+
+
+                <div class="my-3">
+                    <p class="lead font-weight-normal">4. Why is Ali the best man for the job?</p>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q4" value = "A" checked>
+                    <label class="form-check-label">Easily, honours student with a respectable resume</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q4" value = "B">
+                    <label class="form-check-label">He'll outwork anyone else for less merit, it's all about getting better for him</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q4" value = "C">
+                    <label class="form-check-label">From the bottom of the barrel, he's used to doing it all by himself</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name = "q4" value = "D">
+                    <label class="form-check-label">Friendlier than a peach, relationships build quicker than the pyramids of Egypt</label>
+                </div>
+
+                <div class="text-center py-3">
+                    <input type="submit" class="btn btn-dark" value="I'm feeling lucky">
+                </div>
+
+                <div class="good-response-q4 d-none my-2 text-white-65 bg-purple">
+                    <p>We respect greatness, not pit it against itself</p>
+                </div>
+
+
+
+            </form>
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
